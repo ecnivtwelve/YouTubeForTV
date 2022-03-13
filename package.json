@@ -1,0 +1,24 @@
+{
+  "name": "youtube_tv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^17.1.2",
+    "electron-builder": "^22.14.13"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "build": {
+    "appId": "me.vincelinise.windowsyoutubetv",
+    "productName": "YouTube for TV",
+    "copyright": "Copyright © 2022 ecnivtwelve"
+  }
+}
